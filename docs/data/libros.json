@@ -1,0 +1,80 @@
+{
+  "8": {
+    "PRIMERO": {
+      "libro1": {
+        "portada": "img/img/LosJefes.png",
+        "link": "https://drive.google.com/file/d/1ExzwBFCDdXOYHK0ebLGlF9aajY5S2P_p/preview"
+      },
+      "libro2": {
+        "portada": "img/img/caballoCarmelo.png",
+        "link": "https://drive.google.com/file/d/14itnpVjZ_jSfeBIy7pWwNa63Wrn1I_R8/preview"
+      }
+    },
+    "SEGUNDO": {
+      "libro1": {
+        "portada": "img/img/ojosJudas.png",
+        "link": "https://drive.google.com/file/d/1WORQ-JRSrpiNocoZQU8W-5ll-kLPYxL8/preview"
+      },
+      "libro2": {
+        "portada": "img/img/ElpajaroDorado.png",
+        "link": "https://drive.google.com/file/d/1osacW4LtvZqF96BaSTG_LLBleyrycAi6/preview"
+      }
+    },
+    "TERCERO": {
+      "libro1":
+       { "portada": "img/img/hebaristo.png",
+       "link": "https://drive.google.com/file/d/1wUyncQ0A6wZxqM5l-xmdxp4aUphKL4aB/preview" },
+      "libro2":
+       { "portada": "img/img/miCorbata.png", 
+      "link": "https://drive.google.com/file/d/19Y636cG6MxxwmqJmmo9xn0fXEq4GK8gW/preview" }
+    },
+    "CUARTO": {
+      "libro1":
+       { "portada": "img/img/palabra.png",
+       "link": "https://drive.google.com/file/d/1sbsZ25IIepETZ6XtzTjs09Ho9l6yw4F3/preview" },
+      "libro2":
+       { "portada": "img/img/telaAraña.png", 
+      "link": "https://drive.google.com/file/d/1KE5SC5Ig1iLKDsPDTdw6rjbaTB1TqTpF/preview" }
+    },
+    "QUINTO": {
+      "libro1":
+       { "portada": "img/img/ciudad.png",
+       "link": "https://drive.google.com/file/d/1S2QUNbDZZAbUvzuZa6KV_ZauC0SKB_G1/preview" },
+      "libro2": 
+      { "portada": "img/img/RebelionEnLaGranja.png",
+       "link": "https://drive.google.com/file/d/1sm2W5r9fNMjDwKBRbC1FG1e6C9zBoatJ/preview" }
+    }
+  },
+
+  "9": {
+    "PRIMERO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } },
+    "SEGUNDO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } },
+    "TERCERO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } },
+    "CUARTO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } },
+    "QUINTO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } }
+  },
+
+  "10": {
+    "PRIMERO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } },
+    "SEGUNDO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } },
+    "TERCERO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } },
+    "CUARTO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } },
+    "QUINTO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } }
+  },
+
+  "11": {
+    "PRIMERO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } },
+    "SEGUNDO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } },
+    "TERCERO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } },
+    "CUARTO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } },
+    "QUINTO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } }
+  },
+
+  "12": {
+    "PRIMERO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } },
+    "SEGUNDO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } },
+    "TERCERO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } },
+    "CUARTO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } },
+    "QUINTO": { "libro1": { "portada": "", "link": "" }, "libro2": { "portada": "", "link": "" } }
+  }
+}

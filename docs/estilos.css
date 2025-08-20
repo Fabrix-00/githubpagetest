@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    width: 100%; 
+    height: 100%; 
+    margin: 0;  
+    font-size: 230%; /* tamaño de las letras*/
+    text-align: center; /* centrar el texto*/
+    border: 2px solid hsl(240, 40%, 50%); /* Borde azul */
+    color: black; /* Texto negro*/
+    display: block; /* Ocupar todo el ancho */
+    background-color: hsl(220, 50%, 50%); /* fondo del cuadro de texto azul*/
+}
+
+.general {
+    
+    background-image: url('img/img/fondo1.png'); /* Tu fondo predeterminado */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh; /* pantalla completa */
+    display: flex;
+    justify-content: center; /* centra horizontalmente el estante */
+    align-items: center;     /* centra verticalmente el estante */
+}
+.estante-container {
+    position: relative;
+    margin-left: -60%; 
+    display: inline-block;
+}
+.estante {
+    max-width: 100%;
+    display: block;
+}
+
+.btn {
+    position: absolute;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.seccion {
+    position: absolute;
+    text-align: center; 
+}
+.libro {
+     width: 65px;      /* tamaño del libro */
+    height: auto;
+    display: block;
+    margin: 5px auto 0 auto; /* mueve hacia abajo o arriba */
+    position: relative;
+    top: 40px; /* mueve hacia abajo (+) o hacia arriba (-) */
+}
+.libro2{
+    width: 65px;      /* tamaño del libro */
+    height: auto;
+    display: block;
+    margin: 5px auto 0 auto; /* mueve hacia abajo o arriba */
+    position: relative;
+    top: -55px; /* mueve hacia abajo (+) o hacia arriba (-) */
+    left: 80px;
+}
+.escritorio {
+    position: absolute; /* Lo sacas del flujo normal */
+    left: 60%;
+    top: 50%;           /* Centrado vertical */
+    transform: translateY(-50%); /* Ajuste de centrado exacto */
+    bottom: 0;     /* Lo pega al piso */
+    right: 5%;
+}
+.escritorio img {
+    max-width: 100%;
+    display: block;
+}
+.silla{
+    width: 13%;
+    position: absolute;
+    bottom: 0;   /* Altura */
+    right: 5%;  /* Más grande = más a la izquierda (hacia el escritorio) */
+    z-index: 0;  /* Más bajo que otros elementos para que no tape */
+}
+.silla img{
+    max-width: 100%;
+    display: block;
+    right: 50%;
+}
+.yutu{
+    position: relative;
+    display: inline-block;
+}
+.pantalla{
+     position: absolute;
+    top: -168px;     /* Ajusta la altura */
+    left: 477px;   /* Ajusta la posición horizontal */
+    width: 150px;  /* Ajusta el tamaño para que encaje en la pantalla */
+    height: auto;
+}

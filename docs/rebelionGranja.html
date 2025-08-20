@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>PDF en Pantalla Completa</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+    }
+    #pdfViewer {
+      width: 100%;
+      height: 100vh;
+      border: none;
+    }
+    #fullscreenBtn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 10;
+      padding: 10px 15px;
+      background-color: #ffffffcc;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <button id="fullscreenBtn">Pantalla Completa</button>
+
+  <!-- PDF cargado desde Google Drive (MesActual) -->
+  <iframe id="pdfViewer" 
+    src="https://drive.google.com/file/d/1sm2W5r9fNMjDwKBRbC1FG1e6C9zBoatJ/preview">
+  </iframe>
+
+  <script>
+    const btn = document.getElementById('fullscreenBtn');
+    const viewer = document.getElementById('pdfViewer');
+
+    btn.addEventListener('click', () => {
+      if (viewer.requestFullscreen) {
+        viewer.requestFullscreen();
+      } else if (viewer.webkitRequestFullscreen) {
+        viewer.webkitRequestFullscreen();
+      } else if (viewer.msRequestFullscreen) {
+        viewer.msRequestFullscreen();
+      }
+    });
+  </script>
+
+</body>
+</html>
